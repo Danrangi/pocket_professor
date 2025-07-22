@@ -107,16 +107,6 @@ class _ChatScreenState extends State<ChatScreen> {
               messages: _messages,
               onSendPressed: _handleSendPressed,
               user: _user,
-              theme: const DefaultChatTheme(
-                inputBackgroundColor: Color(0xFF2C2C2C),
-                inputTextColor: Colors.white,
-                inputTextCursorColor: Colors.purple,
-                primaryColor: Colors.purple,
-                secondaryColor: Color(0xFF1E1E1E),
-                backgroundColor: Color(0xFF121212),
-                sentMessageBodyTextColor: Colors.white,
-                receivedMessageBodyTextColor: Colors.white,
-              ),
             ),
           ),
           if (_isTyping)

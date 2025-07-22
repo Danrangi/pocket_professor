@@ -17,20 +17,7 @@ class CoolTheme {
         backgroundColor: Color(0xFF1E1E1E),
         elevation: 0,
       ),
-      cardTheme: CardTheme(
-        color: Color(0xFF1E1E1E),
-        elevation: 4,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(16),
-        ),
-      ),
-      inputDecorationTheme: InputDecorationTheme(
-        border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(30),
-        ),
-        filled: true,
-        fillColor: Color(0xFF2C2C2C),
-      ),
+
     );
   }
 }

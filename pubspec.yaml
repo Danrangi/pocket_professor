@@ -1,5 +1,5 @@
 name: pocket_professor
-description: A cool AI professor chat app
+description: A secure AI professor chat app
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -10,22 +10,22 @@ dependencies:
   flutter:
     sdk: flutter
   
-  # Our customized chat UI
-  flutter_chat_ui:
-    path: lib/ui_components/flutter_chat_ui_custom
+  # Use these directly instead of the path
+  flutter_chat_ui: ^1.6.8
+  flutter_chat_types: ^3.6.0
   
-  # Cool animation packages
-  lottie: ^2.7.0          # For animated icons
-  shimmer: ^3.0.0         # For loading effects
-  glassmorphism: ^3.0.0   # For glass-like effects
+  # Cool animation packages with pinned versions
+  lottie: 2.7.0
+  shimmer: 3.0.0
+  glassmorphism: 3.0.0
   
   # Other useful packages
-  cupertino_icons: ^1.0.2
+  cupertino_icons: 1.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: 2.0.0
 
 flutter:
   uses-material-design: true
